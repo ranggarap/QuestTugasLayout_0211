@@ -51,4 +51,11 @@ fun ActivitasPertama(modifier: Modifier) {
             colors = CardDefaults.cardColors(
                 containerColor = colorResource(R.color.card_0_bg)
             )
-        )
+        ) {
+            Row() {
+                val gambar = painterResource(R.drawable.logo_umy)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier.size(100.dp).padding(top =5.dp, start = 10.dp)
+                )}
