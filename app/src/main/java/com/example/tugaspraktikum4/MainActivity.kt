@@ -16,5 +16,12 @@ import com.example.tugaspraktikum4.ui.theme.TugasPraktikum4Theme
 class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
 
+        setContent {
+            TugasPraktikum4Theme() {
+                ActivitasPertama(modifier = Modifier)
+            }
+        }
+    }
 }
