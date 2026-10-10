@@ -6,6 +6,13 @@
     <string name="nama1">Santo joss</string>
     <string name="nama2">Jono joni</string>
     <string name="nama3">bobi jawa</string>
+    <string name="nama4">kanto</string>
+    <string name="alamat1">Turi, Sleman</string>
+    <string name="alamat2">Jogja, Sleman</string>
+    <string name="alamat3">Arab, Sleman</string>
+    <string name="alamat4">Asia Sleman</string>
+    <string name="copy">Copyright, 2026</string>
+
 
 
 </resources>
