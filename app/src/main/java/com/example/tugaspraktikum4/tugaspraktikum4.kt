@@ -91,3 +91,44 @@ fun ActivitasPertama(modifier: Modifier) {
                     modifier = Modifier.size(90.dp).padding(top =5.dp, start = 2.dp)
                 )
             }
+        }
+            Spacer(modifier = Modifier.height(0.dp))
+            Card(
+                modifier = Modifier
+                    .fillMaxWidth(fraction = 1f)
+                    .padding(all=12.dp),
+                colors = CardDefaults.cardColors(
+                    containerColor = colorResource(R.color.colorcolumn1)
+                )
+            ) {
+                Row() {
+                    val gambar = painterResource(R.drawable.logo_umy)
+                    Image(
+                        painter = gambar,
+                        contentDescription = null,
+                        modifier = Modifier.size(100.dp).padding(top =5.dp, start = 10.dp)
+
+                    )
+                    Spacer(modifier = Modifier.width(30.dp))
+                    Column() {
+                        Text(
+                            stringResource(R.string.nama1),
+                            fontSize = 30.sp,
+                            fontFamily = FontFamily.Cursive,
+                            color = Color.White,
+                            modifier = Modifier.padding(top = 1.dp)
+                        )
+                        Text(
+                            stringResource(R.string.nomorhp2),
+                            fontSize = 15.sp,
+                            fontFamily = FontFamily.Cursive,
+                            color = Color.White,
+                            modifier = Modifier.padding(top = 1.dp)
+                        )
+                        Text(
+                            stringResource(R.string.alamat2),
+                            fontSize = 20.sp,
+                            color = Color.Yellow,
+                            modifier = Modifier.padding(top = 1.dp)
+                        )
+}
