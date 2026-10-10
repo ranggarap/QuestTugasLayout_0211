@@ -58,4 +58,14 @@ fun ActivitasPertama(modifier: Modifier) {
                     painter = gambar,
                     contentDescription = null,
                     modifier = Modifier.size(100.dp).padding(top =5.dp, start = 10.dp)
-                )}
+                )
+                Spacer(modifier = Modifier.width(20.dp))
+                Column()
+                {
+                    Text(
+                        stringResource(R.string.nama),
+                        fontSize = 30.sp,
+                        fontFamily = FontFamily.Cursive,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 10.dp)
+                    )}
