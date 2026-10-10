@@ -82,4 +82,12 @@ fun ActivitasPertama(modifier: Modifier) {
                         color = Color.Yellow,
                         modifier = Modifier.padding(top =5.dp, start = 10.dp)
                     )
-}
+
+                }
+                val gambar1 = painterResource(R.drawable.logo_prodi)
+                Image(
+                    painter = gambar1,
+                    contentDescription = null,
+                    modifier = Modifier.size(90.dp).padding(top =5.dp, start = 2.dp)
+                )
+            }
