@@ -131,4 +131,125 @@ fun ActivitasPertama(modifier: Modifier) {
                             color = Color.Yellow,
                             modifier = Modifier.padding(top = 1.dp)
                         )
+
+                    }
+                    val gambar1 = painterResource(R.drawable.logo_prodi)
+                    Image(
+                        painter = gambar1,
+                        contentDescription = null,
+                        modifier = Modifier.size(100.dp).padding(top =5.dp, start = 10.dp)
+                    )
+                }
+            }
+
+                Spacer(modifier = Modifier.height(0.dp))
+                Card(
+                    modifier = Modifier
+                        .fillMaxWidth(fraction = 1f)
+                        .padding(all=12.dp),
+                    colors = CardDefaults.cardColors(
+                        containerColor = colorResource(R.color.colorcolumn2)
+                    )
+                ) {
+                    Row() {
+                        val gambar = painterResource(R.drawable.logo_umy)
+                        Image(
+                            painter = gambar,
+                            contentDescription = null,
+                            modifier = Modifier.size(100.dp).padding(top =5.dp, start = 10.dp)
+                        )
+                        Spacer(modifier = Modifier.width(30.dp))
+                        Column() {
+                            Text(
+                                stringResource(R.string.nama2),
+                                fontSize = 30.sp,
+                                fontFamily = FontFamily.Cursive,
+                                color = Color.White,
+                                modifier = Modifier.padding(top = 1.dp)
+                            )
+                            Text(
+                                stringResource(R.string.nomorhp3),
+                                fontSize = 15.sp,
+                                fontFamily = FontFamily.Cursive,
+                                color = Color.White,
+                                modifier = Modifier.padding(top = 1.dp)
+                            )
+                            Text(
+                                stringResource(R.string.alamat3),
+                                fontSize = 20.sp,
+                                color = Color.Yellow,
+                                modifier = Modifier.padding(top = 1.dp)
+                            )
+
+                        }
+                        val gambar1 = painterResource(R.drawable.logo_prodi)
+                        Image(
+                            painter = gambar1,
+                            contentDescription = null,
+                            modifier = Modifier.size(100.dp).padding(top =5.dp, start = 10.dp)
+                        )
+                    }
+                }
+
+                    Spacer(modifier = Modifier.height(0.dp))
+                    Card(
+                        modifier = Modifier
+                            .fillMaxWidth(fraction = 1f)
+                            .padding(all=12.dp),
+                        colors = CardDefaults.cardColors(
+                            containerColor = colorResource(R.color.colorcolumn3)
+                        )
+                    ) {
+                        Row() {
+                            val gambar = painterResource(R.drawable.logo_umy)
+                            Image(
+                                painter = gambar,
+                                contentDescription = null,
+                                modifier = Modifier.size(100.dp).padding(top =5.dp, start = 10.dp)
+                            )
+                            Spacer(modifier = Modifier.width(30.dp))
+                            Column() {
+                                Text(
+                                    stringResource(R.string.nama3),
+                                    fontSize = 30.sp,
+                                    fontFamily = FontFamily.Cursive,
+                                    color = Color.White,
+                                    modifier = Modifier.padding(top = 1.dp)
+                                )
+
+                                Text(
+                                    stringResource(R.string.nomorhp4),
+                                    fontSize = 15.sp,
+                                    fontFamily = FontFamily.Cursive,
+                                    color = Color.White,
+                                    modifier = Modifier.padding(top = 1.dp)
+                                )
+                                Text(
+                                    stringResource(R.string.alamat4),
+                                    fontSize = 20.sp,
+                                    color = Color.Yellow,
+                                    modifier = Modifier.padding(top = 1.dp)
+
+                                )
+                            }
+                            val gambar1 = painterResource(R.drawable.logo_prodi)
+                            Image(
+                                painter = gambar1,
+                                contentDescription = null,
+                                modifier = Modifier.size(100.dp).padding(top =5.dp, start = 10.dp)
+                            )
+                        }
+                    }
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+        ) {
+            Text(
+                stringResource(R.string.copy),
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .padding(bottom = 50.dp)
+            )
+        }
+    }
 }
